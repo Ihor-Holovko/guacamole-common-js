@@ -1,0 +1,26 @@
+{
+  "name": "@observeid/guacamole-common-js",
+  "version": "1.5.3",
+  "description": "Guacamole common js as an NPM module for ObserveID",
+  "main": "guacamole.js",
+  "types": "guacamole.d.ts",
+  "scripts": {
+    "build": "node build"
+  },
+  "author": "Ihor Holovko <ihorholovko7@gmail.com> for ObserveID <www.observeid.com>",
+  "license": "Apache-2.0",
+  "files": [
+    "LICENSE",
+    "guacamole.js",
+    "guacamole.d.ts",
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "guacamole",
+    "guacamole-common-js"
+  ],
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
